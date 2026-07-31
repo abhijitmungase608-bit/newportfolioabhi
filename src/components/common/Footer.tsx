@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
-import { socialLinks } from '../../data/socialLinks';
+import Link from "next/link";
+import { socialLinks } from "../../Data/socialLinks";
+
 
 function Footer() {
   const currentYear = new Date().getFullYear();
